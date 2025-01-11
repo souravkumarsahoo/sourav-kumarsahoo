@@ -1,0 +1,124 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: front rounder;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: deeppink;
+    color: red
+  }
+  header {
+    background-color:deepskyblue;
+    color:green;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    font-size: 2rem;
+    margin-left: 20px;
+  }
+  
+  header nav ul {
+    list-style: row;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color:yellowgreen;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .hero {
+    background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+    color:gray;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  
+  #featured {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #featured h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .anime-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .anime-item {
+    width: 200px;
+  }
+  
+  .anime-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .anime-item h3 {
+    margin-top: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .anime-item p {
+    color:violet;
+  }
+  
+  
+  #about, #contact {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #about h2, #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+
+  footer {
+    background-color: indigo;
+    color:seagreen;
+    text-align: center;
+    padding: 20px;
+  }
+  aa{
+    background-image: ("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNPFf_ok3d-7QS-uTFjx4RjEZ4uzdbfKnfbw&s");
+  
+  }
+  #home{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyH6_asUCDr0s_UdfKwyUX73yJb4YHYLIKuw&s.jpg/1000x250);
+  }
+  
+  
